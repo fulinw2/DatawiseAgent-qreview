@@ -1,0 +1,52 @@
+# ignore the logs
+**/log/*
+**/logs/*
+
+# ignore data collected
+/data
+tests/
+# ignore unrelated directories and files
+# /evaluation/experimental_results/
+/evaluation/DataModeling/data
+/evaluation/data
+evaluation/InfiAgentBench/eval_outputs/
+# ignore vscode counter
+**/.VSCodeCounter/*
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/*
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+
+# Ignore macOS DS_Store files
+.DS_Store
+
+# Ignore frontend node_modules
+**/node_modules/*
+
+# ignore .env
+.env
+
+.env
+*.env
+evaluation/InfiAgentBench/scripts/api_key.txt
+evaluation/MatplotBench/scripts/api_key.txt
+log/
+__pycache__/
+.pytest_cache/
+
+.env
+*.env
+__pycache__/
+**/__pycache__/*
+*.py[cod]
+log/
+**/log/*
+datawiseagent/logs/
+**/logs/*
+evaluation/InfiAgentBench/scripts/api_key.txt
+evaluation/MatplotBench/scripts/api_key.txt
